@@ -75,6 +75,12 @@ export default function Beranda() {
     }
     return (
         <div className="d-flex justify-content-center align-items-center min-vh-100">
+            {/* Header Sections */}
+            <div className="">
+                <h3 className="">Nama</h3>
+            </div>
+
+            {/* Formulir Sections */}
             <div className="card">
                 <div className="card-body p-5">
                     <form className="row g-3 needs-validation" onSubmit={submitHandled}>
