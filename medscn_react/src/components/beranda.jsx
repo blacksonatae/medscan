@@ -70,7 +70,9 @@ export default function Beranda() {
 
     const submitHandled = (e) => {
         e.preventDefault();
-        
+
+
+        //
     }
     return (
         <>
